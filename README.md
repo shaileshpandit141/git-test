@@ -1,2 +1,2 @@
 # Git-test
-This is directory create for practice git commands.
+This directory is created for practicing Git commands.
