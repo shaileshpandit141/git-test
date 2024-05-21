@@ -1,0 +1,55 @@
+/* CSS Font Size Variables. */
+:root {
+    
+    /* For Display Text  */
+    --display: 4rem;
+    --display-height: 44px;
+
+    /* For Heading Text  */
+    --heading: 2.813rem;
+    --heading-height: 36px;
+
+    /* For Title Text  */
+    --title: 1.5rem;
+    --title-height: 24px;
+    --title-spacing: 0.15px;
+
+    /* For Label Text  */
+    --label: 1.125rem;
+    --label-height: 16px;
+    --label-spacing: 0.5px;
+
+    /* For body Text  */
+    --body-m: 0.875rem;
+    --body-m-height: 20px;
+    --body-m-spacing: 0.25px;
+
+    /* Define Color variables */
+    --background-color: #fff;
+    --text-color: #09090b;
+    --header-background: unset;
+    --sidebar-background: unset;
+    --footer-background: unset;
+    --hover-color: unset;
+}
+
+/* Body styles. */
+body {
+    display: grid;
+    background-color: var(--background-color);
+    grid-template-columns: repeat(12, 1fr);
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+/* Protect Link OverFlow during Click.  */
+.protect--link--overflow {
+    display: flex;
+    overflow: hidden;
+    width: fit-content;
+}
+
+/* Write your style here.-------------- */

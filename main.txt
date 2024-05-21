@@ -1,2 +1,0 @@
-This is text file.
-This is new line.
